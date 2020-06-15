@@ -48,7 +48,7 @@ Atribuir um mı́nimo de 100 VA.
 Atribuir um mı́nimo de 100 VA para os primeiros 6m2, acrescido de 60 VA para cada aumento de 4m2 inteiros.
 Nota: A NBR 5410:2004 não estabelece criterios para iluminação de áreas externas em recidências, ficando a cargo do projetista e do cliente.
 
-### Exemplo dos calculos para carga de ilumonação
+### Exemplo dos calculos para carga de iluminação
 
 |   Dependências  |   Dimensões área (m²)   | Potência de iluminação (VA) | (VA) |
 |:---------------:|:-----------------------:|:---------------------------:|:----:|

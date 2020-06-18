@@ -49,7 +49,7 @@ Para área superior a 6m2
   
 *Nota:* A NBR 5410:2004 não estabelece critérios para iluminação de áreas externas em residências, ficando a cargo do projetista e do cliente.
 
-### Exemplo dos calculos para carga de ilumonação
+### Exemplo dos calculos para carga de iluminação
 
 |   Dependências  |   Dimensões área (m²)   | Potência de iluminação (VA) | (VA) |
 |:---------------:|:-----------------------:|:---------------------------:|:----:|

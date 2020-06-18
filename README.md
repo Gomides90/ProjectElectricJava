@@ -29,7 +29,7 @@ A isso damos o nome de fator de potência, nos projetos residenciais, desejando-
 
 ### Levantamento Da Carga De Iluminação
 
-##### Recomendações da NBR 5410:2004.
+**Recomendações da NBR 5410:2004.**
 
 #### Condições para se estabelecer a quantidade mı́nima de pontos de luz
 
@@ -41,11 +41,11 @@ A isso damos o nome de fator de potência, nos projetos residenciais, desejando-
 ### Condições para se estabelecer a potência mı́nima de iluminação
 
 A carga de iluminação é feita em função a área do cômodo a ser dimensionado.
-Para área igual ou inferior a 6m2  
+Para área igual ou inferior a 6m²  
 * Atribuir um mı́nimo de 100 VA.
   
 Para área superior a 6m2
-* Atribuir um mı́nimo de 100 VA para os primeiros 6m2, acrescido de 60 VA para cada aumento de 4m2 inteiros.
+* Atribuir um mı́nimo de 100 VA para os primeiros 6m2, acrescido de 60 VA para cada aumento de 4m² inteiros.
   
 *Nota:* A NBR 5410:2004 não estabelece critérios para iluminação de áreas externas em residências, ficando a cargo do projetista e do cliente.
 

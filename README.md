@@ -1,4 +1,5 @@
 # ProjectElectricJava
+
 ## Dimensionamento Elétrico Residencial Desenvolvido Em Java
 
 ### Introdução
@@ -18,8 +19,8 @@ No mesmo é feito uma previsão das a potências mı́nimas de iluminação e to
 É a parte da potência aparente que é transformada em potência mecânica, térmica ou luminosa, tendo como unidade de media o Watt(W).
 
 ### Potência Reativa
-É a parte da potência aparente que é transformada em um campo magnético, tendo
-como unidade de media o Volt-Ampare (VAr).
+
+É a parte da potência aparente que é transformada em um campo magnético, tendo como unidade de media o Volt-Ampare (VAr).
 
 ### Fator De Potencia
 Sendo a potência de ativa uma parcela de potência aparente, pode-se dizer que a mesma representa uma percentagem da potência aparente que é transformada em potência mecânica, térmica ou luminosa.
@@ -31,21 +32,19 @@ A isso damos o nome de fator de potência, nos projetos residenciais, desejando-
 
 **Recomendações da NBR 5410:2004.**
 
-#### Condições para se estabelecer a quantidade mı́nima de pontos de luz
+|Condições para se estabelecer a quantidade mı́nima de pontos de luz                  |
+|:----------------------------------------------------------------------------------:|
+| Prever pelo menos um ponto de luz no teto,comandado por um interruptor de parede   |
+| Arandelas no banheiro devem estar distantes no mı́nimo, 60cm do limite do box       |
 
-| Prever pelo menos um ponto de luz no teto,comandado por um interruptor de parede |
-|----------------------------------------------------------------------------------|
-
-| Arandelas no banheiro devem estar distantes no mı́nimo, 60cm do limite do box     |
-|----------------------------------------------------------------------------------|
 ### Condições para se estabelecer a potência mı́nima de iluminação
 
 A carga de iluminação é feita em função a área do cômodo a ser dimensionado.
 Para área igual ou inferior a 6m²  
 * Atribuir um mı́nimo de 100 VA.
   
-Para área superior a 6m2
-* Atribuir um mı́nimo de 100 VA para os primeiros 6m2, acrescido de 60 VA para cada aumento de 4m² inteiros.
+Para área superior a 6m²
+* Atribuir um mı́nimo de 100 VA para os primeiros 6m², acrescido de 60 VA para cada aumento de 4m² inteiros.
   
 *Nota:* A NBR 5410:2004 não estabelece critérios para iluminação de áreas externas em residências, ficando a cargo do projetista e do cliente.
 
@@ -53,21 +52,23 @@ Para área superior a 6m2
 
 |   Dependências  |   Dimensões área (m²)   | Potência de iluminação (VA) | (VA) |
 |:---------------:|:-----------------------:|:---------------------------:|:----:|
-|       Sala      |  9,91 |       9,91 = 6 + 3,91       |  100 |
-|       Copa      |  9,45 |       9,45 = 6 + 3,45       |  100 |
-|     Cozinha     | 11,43 |     11,43 = 6 + 4 + 1,43    |  160 |
-|    Dormitorio   | 10,71 |     10,71 = 6 + 4 + 0,71    |  160 |
-|      Banho      | 4,14 |          4,14 → 100          |  100 |
-| Área de Serviço | 5,95 |          5,95 → 100          |  100 |
-|       hall      | 1,80 |          1,80 → 100          |  100 |
-|   Área externa  |  -   |              -               |  100 |
+|       Sala      |          9,91           |       9,91 = 6 + 3,91       |  100 |
+|       Copa      |          9,45           |       9,45 = 6 + 3,45       |  100 |
+|     Cozinha     |          11,43          |     11,43 = 6 + 4 + 1,43    |  160 |
+|    Dormitorio   |          10,71          |     10,71 = 6 + 4 + 0,71    |  160 |
+|      Banho      |          4,14           |          4,14 → 100         |  100 |
+| Área de Serviço |          5,95           |          5,95 → 100         |  100 |
+|       hall      |          1,80           |          1,80 → 100         |  100 |
+|   Área externa  |           -             |              -              |  100 |
 
 ### Levantamento Da Carga De Tomadas
+
 **Recomendações da NBR 5410:2004.**
 
 #### Condições para se estabelecer a quantidade mı́nima de pontos de tomadas
+
 | Ponto de tomada é o ponto onde a conexão do equipamento à instalação elétrica é feitaatravés de tomada corrente. O mesmo pode ter uma ou mais tomadas de corrente |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:------------------------------------------------------------------------------------------------------------------------------:|
 
 **Cômodos ou dependências com área igual ou inferior a 6m²**
 
@@ -87,3 +88,43 @@ Para área superior a 6m2
 |     Varanda     |                    Mı́nimo um ponto de tomada                    |
 |     Banheiro    |                    Mı́nimo um ponto de tomada                    |
 
+### Condições para se estabelecer a potência mı́nima para pontos de tomadas de uso geral (PTUG’S)
+
+|   Dependências      |                          Especificações                         |
+|:-------------------:|:---------------------------------------------------------------:|
+|     Banheiro        |  Atribuir, no mı́nimo, 600 VA por ponto de tomada até 3 tomadas  |
+|     Cozinhas        |  Atribuir, no mı́nimo, 600 VA por ponto de tomada até 3 tomadas  |
+|     Copas           |  Atribuir, no mı́nimo, 600 VA por ponto de tomada até 3 tomadas  |
+|   Área de serviço   |  Atribuir, no mı́nimo, 600 VA por ponto de tomada até 3 tomadas  |
+|     Lavandeira      |  Atribuir, no mı́nimo, 600 VA por ponto de tomada até 3 tomadas  |
+| Demais dependências |  Atribuir 100 VA por ponto de tomada                            |
+
+### Condições para se estabelecer a quantidade de pontos de tomadas de uso especifico (PTUE’s)
+
+A quantidade de PTUE’s é estabelecida de acordo com número de aparelhos de utilização que estarão fixos em uma dada posição no ambiente.
+
+#### Estabelecendo a quantidade mı́nima de PTUG’s e PTUE’s
+
+|    Dependência   | Área (m²) | Perı́metro (m) | PTUG’s |        PTUE’s         |
+|:----------------:|:---------:|:-------------:|:------:|:---------------------:|
+|    Sala          |    9,91   |     12,6      |    3   |           -           |
+|    Cozinha       |    11,43  |     13,6      |    4   |     1 Geladeira       |
+|    Copa          |    9,45   |     12,3      |    4   |           -           |
+|    Dormitório    |    11,05  |     13,3      |    3   |           -           |
+|    Banheiro      |    4,14   |       -       |    1   | 1 Chuveiro elétrico   |
+| Área de serviço  |    5,95   |       -       |    2   | 1 Máquina lavar roupa |
+| Área externa     |      -    |       -       |    -   |           -           |
+
+*Observação:* Área inferior a 6m² não interessa o perı́metro.
+
+## Prevendo as cargas de PTUG’s E PTUE’s
+
+|    Dependência   | Área (m²) | Perı́metro (m) | PTUG’s | PTUE’s | PTUG’s | PTUE’s |
+|:----------------:|:---------:|:-------------:|:------:|:------:|:------:|:------:|
+|    Sala          |    9,91   |     12,6      |    3   |   -    |  300VA |    -   |
+|    Cozinha       |    11,43  |     13,6      |    4   |   1    | 1900VA |  500W  |
+|    Copa          |    9,45   |     12,3      |    4   |   -    | 1900VA |    -   |
+|    Dormitório    |    11,05  |     13,3      |    3   |   -    |  400VA |    -   |
+|    Banheiro      |    4,14   |       -       |    1   |   1    |  600VA |    -   |
+| Área de serviço  |    5,95   |       -       |    2   |   1    | 1200VA | 1000W  |
+| Área externa     |      -    |       -       |    -   |   -    |   -    |    -   |

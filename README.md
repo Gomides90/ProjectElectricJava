@@ -128,4 +128,7 @@ A quantidade de PTUE’s é estabelecida de acordo com número de aparelhos de u
 |    Banheiro      |    4,14   |       -       |    1   |   1    |  600VA |    -   |
 | Área de serviço  |    5,95   |       -       |    2   |   1    | 1200VA | 1000W  |
 | Área externa     |      -    |       -       |    -   |   -    |   -    |    -   |
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c9fd37f7770b95ad883de30c61fc96f12f78ad0
